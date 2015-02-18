@@ -1,0 +1,69 @@
+div.div1{
+   margin-left: 100px;
+   margin-top: 0px;
+   float: left;
+   text-align: center;
+   
+}
+
+div.div2{
+   margin-left: 50px;
+   margin-top: 0px;
+   float: left;
+   text-align: center;
+}
+
+body{
+   // background-image: url("wallpaper.jpg");
+}
+
+.mouseover{
+    height:220px;
+    width:320px;
+}
+
+.mouseleave{
+    height:200px;
+    width:300px;
+}
+
+#microsoft_form_table,#mcafee_form_table,#mcafee_distribution,#microsoft_distribution{
+    background-color: #C2F0F0;
+}
+
+#order_mcafee_div,#order_microsoft_div{
+    background-color: graytext;
+}
+.show_result{
+    visibility: visible;
+}
+.hiden{
+    visibility: hidden;
+}
+
+#distribution{
+   margin-left: 100px;
+   margin-top: 0px;
+   float: left;
+   text-align: center;
+}
+div.distribution{
+    visibility: visible;
+}
+
+#order_microsoft ,#order_mcafee{ 
+    background-color:graytext;
+    border-radius:15px;
+    color:#000;
+    display:none; 
+    padding:50px;
+    min-width:100px;
+    min-height: 100px;
+}
+.b-close{
+    cursor:pointer;
+    position:absolute;
+    right:10px;
+    top:5px;
+    visibility: hidden;
+}

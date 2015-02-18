@@ -1,0 +1,64 @@
+<html>
+    <head>   
+        <link rel="stylesheet" type="text/css" href="product.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="integrate.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+        <script src="jquery.bpopup.min.js"></script>
+        <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>  
+    </head>
+    
+    <body>
+        <div class="div2" id="mcafee_div">
+            <p>Mcafee Antivirus</p>
+            <a><img src="mcafee.jpeg" width="300" height="200" id="mcafee"></a>
+            <p>Rs.150</p>
+            <button type="button" id='button'>Buy</button>
+        </div>
+        
+        <script>
+            $(function() {
+                $( "#datepicker" ).datepicker();
+            });
+        </script>
+        
+        <div id="response">
+            
+                <form id="mcafee_form">
+                    <table id="mcafee_form_table">
+                    <tr> <td>usage from</td><td><input type="text" id="datepicker" name="start" required> </td></tr>
+                    <!--  <tr><td>usage till</td> <td><input type="text" id="datepicker1" name="end"></td></tr>-->
+                    <tr><td>Usage for February</td><td><input type="text" name="feb"></td></tr>
+                    <tr><td>Usage for March</td><td><input type="text" name="march"></td></tr>
+                    <tr><td>Usage for April</td><td><input type="text" name="april"></td></tr>
+                    <tr><td>Usage for May</td><td><input type="text" name="may"></td></tr>
+                    <tr><td>Usage for June</td><td><input type="text" name="june"></td></tr>
+                    <tr><td>Usage for July</td><td><input type="text" name="july"></td></tr>
+                    <tr><td>Usage for August</td><td><input type="text" name="aug"></td></tr>
+                    <tr><td>Usage for September</td><td><input type="text" name="sept"></td></tr>
+                    <tr><td>Usage for October</td><td><input type="text" name="oct"></td></tr>
+                    <tr><td>Usage for November</td><td><input type="text" name="nov"></td></tr>
+                    <tr><td>Usage for December</td><td><input type="text" name="dec"></td></tr>
+                    <tr><td>Usage for January16</td><td><input type="text" name="jan16"></td></tr>
+                    <tr><td>Usage for February16</td><td><input type="text" name="feb16"></td></tr>
+                    <tr><td></td><td><button type="submit">Submit</button></td></tr>
+                    </table>
+                </form>  
+        </div>
+        <button id="mcafee_button">place order</button>
+        
+        <div id="order_mcafee_div">
+                
+                <form id ="order_mcafee">
+                    <a id="atag" class="b-close">x</a>
+                    <table>
+                        <tr><td>name</td><td> <input type="text" name="name" required></td></tr>
+                        <tr><td>address </td><td> <input type="text" name="address" required></td></tr>
+                        <tr><td>price</td><td> <input type="text" name="price" class="price" readonly></td></tr>
+                        <tr><td></td><td><button type="submit" >Order Mcafee</button></td></tr>
+                   </table>
+                </form>
+            
+        </div>
+    </body>
+</html>
